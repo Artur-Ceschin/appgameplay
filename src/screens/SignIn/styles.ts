@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: theme.colors.secondary80,
+    backgroundColor: theme.colors.secondary100,
   },
   image: {
     width: '100%',
@@ -19,6 +19,7 @@ export const styles = StyleSheet.create({
   },
   content: {
     marginTop: -45,
+    paddingHorizontal: 50,
   },
   title: {
     color: theme.colors.heading,
